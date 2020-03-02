@@ -1,71 +1,29 @@
 body {
-    background: salmon;
-}
-
-a {
-    color: brown;
-}
-
-.paragraf {
-    color: blue;
+    background: #fefefe;
+    color: #333;
 }
 
 .header {
-    color: tomato;
-    background: black;
+    color: yellow;
 }
 
-.firstSection h2 {
-    color: rgb(10, 238, 238);
-    background: black;
+.heading {
+    color: #4D62C1;
 }
 
-.firstSection p {
-    color: turquoise;
-    background: black;
+.sectionHeader, .diaryHeader {
+    color: #448FFF;
 }
 
-.pamietniczekSection {
-    background: burlywood;
+.thirdHeader {
+    color: #55A6E8;
 }
 
-.pamietniczekSection h2 {
-    background: rgb(84, 188, 219);
-}
-
-.pamietniczekSection h3 {
-    background: rgb(55, 233, 48);
-}
-
-.mobilizacjaSection {
-    background: rgb(224, 182, 152);
-}
-
-.mobilizacjaSection h2 {
-    background: crimson;
-    
-}
-
-.mobilizacjaSection h3 {
-    background: crimson;
-    color: cyan;
-}
-
-.allArticle {
-    background: darkgoldenrod;
-}
-
-.allArticle h1{
-    background: rgb(236, 174, 17);
-    color: darkgreen;
-}
-
-.allArticle p{
-    color: darkred;
+.link {
+    color: #02CDE0;
 }
 
 .footer {
     background: black;
     color: whitesmoke;
 }
-
