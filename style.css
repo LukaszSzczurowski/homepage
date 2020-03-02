@@ -1,0 +1,71 @@
+body {
+    background: #fefefe;
+}
+
+a {
+    color: brown;
+}
+
+.paragraf {
+    color: blue;
+}
+
+.header {
+    color: tomato;
+    background: black;
+}
+
+.firstSection h2 {
+    color: rgb(10, 238, 238);
+    background: black;
+}
+
+.firstSection p {
+    color: turquoise;
+    background: black;
+}
+
+.pamietniczekSection {
+    background: burlywood;
+}
+
+.pamietniczekSection h2 {
+    background: rgb(84, 188, 219);
+}
+
+.pamietniczekSection h3 {
+    background: rgb(55, 233, 48);
+}
+
+.mobilizacjaSection {
+    background: rgb(224, 182, 152);
+}
+
+.mobilizacjaSection h2 {
+    background: crimson;
+    
+}
+
+.mobilizacjaSection h3 {
+    background: crimson;
+    color: cyan;
+}
+
+.allArticle {
+    background: darkgoldenrod;
+}
+
+.allArticle h1{
+    background: rgb(236, 174, 17);
+    color: darkgreen;
+}
+
+.allArticle p{
+    color: darkred;
+}
+
+.footer {
+    background: black;
+    color: whitesmoke;
+}
+
