@@ -10,33 +10,38 @@
 </head>
 
 <body>
-  <header>
-    <a class="link" href="index.html">Strona główna |</a>
-    <a class="link" href="podstrona.html">Podstrona |</a>
-    <a class="link" href="podstrona1.html">Podstrona 1 |</a>
-    <a class="link" href="podstrona2.html">Podstrona 2 |</a>
-    <a class="link" href="podstrona3.html">Podstrona 3 |</a>
+  <header class="navigation">
+    <a class="link" href="index.html">Strona główna</a>
+    <a class="link" href="podstrona.html">Podstrona</a>
+    <a class="link" href="podstrona1.html">Podstrona 1</a>
+    <a class="link" href="podstrona2.html">Podstrona 2</a>
+    <a class="link" href="podstrona3.html">Podstrona 3</a>
   </header>
 
-  <main class="main">
+  <main id="top" class="main">
     <header class="header">
       <h1 class="heading">
         Łukasz Szczurowski - Strona domowa - pozdro github
       </h1>
     </header>
 
-    <section>
+    <section class="about">
+
+      <div class="box">BOX</div>
+      
+      
       <h2 class="sectionHeader">Kim jestem?</h2>
-      <p class="paragraf"> ipsum dolor sit <b>consectetur</b> adipisicing elit. Quis cumque provident aliquid illo veritatis quod esse
-        beatae ad omnis <strong>voluptatem</strong>tempore, magnam odio doloremque reprehenderit molestiae similique hic
+      <p class="paragraf">
+        <img src="img/latanie.jpg" alt="latanie" class="latanie" />
+         ipsum dolor sit <b>consectetur</b> adipisicing elit. Quis cumque provident aliquid illo veritatis quod esse
+        beatae ad omnis <strong>voluptatem</strong> tempore, magnam odio doloremque reprehenderit molestiae similique hic
         sint fugiat.
       <br>
       <a class="link" href="#pamietniczek">Przejdź do pamiętniczka</a>
       </p>
     </section>
 
-    <section id="pamietniczek">
-
+    <section class="diary" id="pamietniczek">
       <h2 class="diaryHeader">Pamiętniczek</h2>
       <section>
         <h3 class="thirdHeader">Jak stworzyć prawidłowego <i>HTML-a?</i></h3>
@@ -47,6 +52,7 @@
           <a class="link" href="podstrona.html">Przejdź do artykułu o pisaniu HTML-a</a>
           </p>
       </section>
+
       <section>
         <h3 class="thirdHeader">Czy nagrywanie szkolenia to prosta sprawa</h3>
         <p class="paragraf">Lorem ipsum dolor sit amet, <em>adipisicing elit</em> . Eos nesciunt aliquam modi, error officiis
@@ -56,6 +62,7 @@
           <a class="link" href="podstrona1.html">Przejdź do artykuły o nagrywaniu</a>
         </p>
       </section>
+
       <section>
           <h3 class="thirdHeader">Dziś tj. 11 lutego 2020 roku podejmuję wyzwanie :D</h3>
           <P class="paragraf"> Po prostu lecę lecę lecę FRuuuuuuuuuuuuuuuuuuuuuuuuuuuu..............
@@ -63,6 +70,7 @@
             <a class="link" href="podstrona2.html">Przejdź do artykułu o lataniu</a>
           </P>
       </section>
+
       <section>
         <h3 class="thirdHeader">24 lutego 2020 praca domowa tydzień 3</h3>
           <P class="paragraf"> Po prostu kliknij poniżej aby przejść do artykułu
@@ -76,6 +84,7 @@
   </main>
 
   <footer class="footer">
+    <a href="#top" class="top">Na górę</a>
     &#169; Strona domowa Łukasza Szczurowskiego, przebieg kursu Maćka Korsana WTF
   </footer>
   <script src="main.js"></script>
