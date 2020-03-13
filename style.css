@@ -54,8 +54,11 @@
 }
 
 body {
-    background: #fefefe;
+    background: #cdeefc;
     color: #333;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 
@@ -64,11 +67,11 @@ body {
     clear: left;
 }
 
-.diary__h2-Header {
+.diary__header-second{
     color: #448FFF;
 }
 
-.diary__h3-Header {
+.diary__header-third{
     color: #55A6E8;
 }
 
@@ -87,37 +90,52 @@ body {
     margin: auto;
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
 .main {
     width: 100%;
     max-width: 700px;
-    margin: 32px auto;
-    padding-top: 50px;
+    margin: 0 auto 0 auto;
+
 }
 
 .main__header {
-    color: yellow;
+    
+    padding-top: 51px;
 }
 
-.main__heading {
+.main__header-first {
     color: #4D62C1;
-    margin-bottom: 49px;
+    margin:50px 0 50px 0;
+    
 }
 
 .navigation{
-    position: fixed;
+    display: flex;
     width: 100%;
     top: 0;
     left: 0;
     box-sizing: border-box;
     padding: 16px;
-    background: white;
-    border-radius: 50px;
-
+    background: #c1e7f7;
 }
 
 .navigation__link{
     text-decoration: none;
     color: #02CDE0;
+    margin-left: 16px;
+}
+
+.navigation__list{
+    display: flex;
+    margin: 0;
+    
 }
 
 .navigation a:hover{
