@@ -11,37 +11,51 @@
 </head>
 
 <body>
-    <header  class="navigation">
-        <a class="navigation__link" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="podstrona.html">Podstrona</a>
-        <a class="navigation__link" href="podstrona1.html">Podstrona1</a>
-        <a class="navigation__link" href="podstrona2.html">Podstrona2</a>
-        <a class="navigation__link" href="podstrona3.html">Podstrona3</a>
+    <header class="navigation__header">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="index.html">Strona główna</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="podstrona.html">Podstrona</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="podstrona1.html">Podstrona1</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="podstrona2.html">Podstrona2</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="podstrona3.html">Podstrona3</a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
-    <main>
+    <main class="main">
         <article class="article">
             <header class="article__header">
                 <h1>Jak stworzyć prawidłowego HTML-a?</h1>
             </header>
-            <p class="article__paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
-                non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
-            </p>
-            <p class="article__paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
-                non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
-            </p>
-            <p class="article__paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
-                non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
-            </p>
-            <p class="article__paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
-                non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
-            </p>
-            <br>
-                <img src="img/jakstworzycHTMLA.jpg" alt="Zdjęcie autora ŁS"/ class="article__picture"> 
-
-            <footer>
-                Autor artykułu
-             </footer class="article__footer">
+                <p class="article__paragraf">
+                    <img src="img/jakstworzycHTMLA.jpg" alt="Zdjęcie autora ŁS"/ class="article__picture"> 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
+                            non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
+                    
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
+                            non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
+                            non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam debitis ut! Eius, minus reiciendis
+                            non animi mollitia tenetur vero aut odio praesentium qui voluptas hic repellat tempore dolore aperiam.
+                            <br>
+                            <footer class="article__footer">
+                                <p class="article__footer--js">Autor artykułu</p>
+                            </footer >
+                </p>
+            
         </article>
     </main>
 
@@ -50,6 +64,9 @@
         &#169; Strona domowa Łukasza Szczurowskiego, przebieg kursu Maćka Korsana WTF
 
     </footer>
+
+    <script src="mainPodstrona.js"></script>
+
 </body>
 
 </html>
