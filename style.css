@@ -11,7 +11,7 @@ html{
 }
 
 .about__header {
-    color: #448FFF;
+    color: rgb(69, 29, 121);
 }
 
 .about__paragraf{
@@ -76,7 +76,9 @@ html{
 }
 
 body {
-    background: #cdeefc;
+    background-color: #08AEEA;
+    background-image: linear-gradient(135deg, #08AEEA 67%, #2AF598 84%, #ffffff 100%);
+
     color: #333;
     margin: 0;
     padding: 0;
@@ -88,7 +90,7 @@ body {
 }
 
 .diary__header{
-    color: #448FFF;
+    color: rgb(69, 29, 121);
 }
 
 .day{
@@ -96,7 +98,7 @@ body {
 }
 
 .day__header{
-    color: #55A6E8;
+    color: rgb(81, 36, 139);
     margin: 0 0 16px 0;
     font-size: 20px;
 }
@@ -152,8 +154,9 @@ html{
 }
 
 .navigation__header{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 50%, #ffffff 100%);
     box-sizing: border-box;
-    background: #c1e7f7;
     position: fixed;
     top: 0;
     left: 0;
@@ -162,11 +165,11 @@ html{
 }
 
 .navigation__item{
-    
+    margin-left: 16px;
 }
 
 .navigation__link{
-    color: rgb(21, 147, 250);
+    color: rgb(6, 104, 184);
 }
 
 .navigation__list{
@@ -174,8 +177,9 @@ html{
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: center;
+    flex-basis: 120px;
     
 }
 
@@ -188,7 +192,7 @@ html{
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: rgb(74, 181, 190);
+    color: rgb(148, 114, 202);
     text-decoration: none;
 }
 
