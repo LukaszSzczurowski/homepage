@@ -45,7 +45,7 @@ html{
 .article{
     padding-top: 51px;
     margin: 0 0;
-    height: 100vw;
+    
 
 }
 
@@ -137,17 +137,19 @@ html{
 
 }
 
-.main__header {
+.header {
     
     padding-top: 51px;
 }
 
-.main__header--title {
+.header__title {
     color: #4D62C1;
     margin:50px 0 50px 0;
     text-shadow: 3px 3px 1px tomato;
-    
-    
+}
+
+.header__title--red{
+    color: red;
 }
 
 .navigation{
@@ -179,9 +181,9 @@ html{
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
-    flex-basis: 120px;
+    
     
 }
 
@@ -234,6 +236,8 @@ html{
     grid-row-gap: 16px;
 }
 
+
+
 @media (max-width: 710px){
     .grid{
         grid-template-columns: 1fr;
@@ -243,10 +247,34 @@ html{
     .day__link{
         color: rgb(74, 158, 74);
     }
-}
 
-@media (min-width:1000px){
-    .main{
-        max-width: 900px;
+    .navigation__list{
+        flex-direction: column;
+        display: none;
+    }
+
+    .navigation__list--visible{
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation__item{
+        margin: 16px;
+    }
+
+    .navigation__switcher{
+        border: none;
+        background: none;
+        position: absolute;
+        top: 16px;
+        right: 16px;
     }
 }
+
+@media (min-width:711px){
+
+    .navigation__switcher{
+        display: none;
+    }
+}
+
