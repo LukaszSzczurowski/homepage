@@ -1,8 +1,35 @@
+//var name = prompt('Please enter your name.');
+//alert('Witaj na mojej stronie ' + name);
+
+/*
+var articleHeader = document.querySelector('h1');
+
+setTimeout(function() {
+    articleHeader.innerHTML = 'Łukasz Szczurowski - Strona domowa - pozdro github'  ;
+}, 12000);
+
+setWelcomeUser();
+
+function setWelcomeUser() {
+    
+    var userName = prompt('Please enter your name.');
+    localStorage.setItem('username', userName);
+    articleHeader.textContent = 'Welcome, ' + userName ;
+    
+}
+
+*/
+
+
+
+
+
 const name='Łukasz';
 const age=36;
 console.log(`Witaj na mojej stronie. Nazywam się ${name} i 
 mam ${age} lat 😎`);
 
+/*
 const about = document.querySelector('.about__paragraf--js');
 const articleFooter = document.querySelector('.article__footer--js');
 
@@ -16,3 +43,4 @@ about.innerHTML = 'Pozdro <h1>JS</h1>!'; // nadpisuje zawartość danego bloku
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
 console.log(paragraphs[0]);
+*/

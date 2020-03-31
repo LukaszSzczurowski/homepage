@@ -1,3 +1,14 @@
+var myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+    var mySrc = myImage.getAttribute('src');
+    if (mySrc === 'img/jakstworzycHTMLA.jpg') {
+        myImage.setAttribute('src','img/mesytacja.jpg');
+    } else {
+        myImage.setAttribute('src','img/jakstworzycHTMLA.jpg');
+    }
+}
+
 
 const articleFooter = document.querySelector('.article__footer--js');
 
